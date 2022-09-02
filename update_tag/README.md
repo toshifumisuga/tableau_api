@@ -26,7 +26,7 @@ https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref.htm#add_ta
 1. tagを更新するためのCSVファイル(tag_file.csv)を作成してください  
 tagを更新するためのworkbook idを取得する必要がありますが、API経由でしか取得できません  
 そこでGUI上で確認できるView wookbook IDを取得してください  
-例: "https://prod-apnortheast-a.online.tableau.com/#/site/[site id]/workbooks/[View wookbook ID]]/views"
+例: ```https://prod-apnortheast-a.online.tableau.com/#/site/[site id]/workbooks/[View wookbook ID]]/views```
 
 2. get_wookbook_list_log.pyを実行してください
 上記で示した通り、サイト上のworkbook idを取得するためのログファイルを取得します  
