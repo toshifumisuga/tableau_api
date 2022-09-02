@@ -3,8 +3,8 @@ import xml.etree.ElementTree as et
 import numpy as np
 
 # 縦持ちのcsvの読み込み
-inputFileName = "tag_file.csv"
-df = pd.read_csv(inputFileName)
+input_File_Name = "tag_file.csv"
+df = pd.read_csv(input_File_Name)
 
 for i in range(len(df.index)):
     # XMLデータを生成

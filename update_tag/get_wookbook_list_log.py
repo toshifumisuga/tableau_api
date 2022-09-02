@@ -2,11 +2,15 @@ import requests, json
 from pathlib import Path
 
 # NOTE! Substitute your own values for the following variables
-use_pat_flag = True  # True = use personal access token for sign in, false = use username and password for sign in.
+# True = use personal access token for sign in, false = use username and password for sign in.
+use_pat_flag = True
 
-server_name = "prod-apnortheast-a.online.tableau.com"   # Name or IP address of your installation of Tableau Server
-version = "3.16"     # API version of your server
-site_url_id = "istyle"    # Site (subpath) to sign in to. An empty string is used to specify the default site.
+# Name or IP address of your installation of Tableau Server
+server_name = "prod-apnortheast-a.online.tableau.com"
+# API version of your server
+version = "3.16"
+# Site (subpath) to sign in to. An empty string is used to specify the default site.
+site_url_id = "site id"
 
 # For username and password sign in
 user_name = "USERNAME"    # User name to sign in as (e.g. admin)

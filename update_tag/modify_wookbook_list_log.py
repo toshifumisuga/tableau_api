@@ -5,7 +5,6 @@ import numpy as np
 
 '''
 APIを叩いて取得したログから、workbook_idの辞書を作成する
-
 '''
 # 縦持ちのcsvの読み込み
 inputFileName = "tag_file.csv"
